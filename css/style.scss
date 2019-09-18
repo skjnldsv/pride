@@ -1,22 +1,23 @@
 @namespace xlink 'http://www.w3.org/1999/xlink';
 
 #header {
-	background-image: linear-gradient(
-		lighten(rgb(204, 0, 0), 5%),
-		lighten(rgb(204, 0, 0), 5%) 16.67%,
-		lighten(rgb(204, 102, 0), 5%) 16.67%,
-		lighten(rgb(204, 102, 0), 5%) 33.33%,
-		lighten(rgb(204, 204, 0), 5%) 33.33%,
-		lighten(rgb(204, 204, 0), 5%) 50%,
-		lighten(rgb(0, 121, 64), 5%) 50%,
-		lighten(rgb(0, 121, 64), 5%) 66.67%,
-		lighten(rgb(0, 0, 166), 5%) 66.67%,
-		lighten(rgb(0, 0, 166), 5%) 83.33%,
-		lighten(rgb(160, 0, 192), 5%) 83.33%,
-		lighten(rgb(160, 0, 192), 5%)
+	background-image: linear-gradient(#E04641,
+		#E04641 16.67%,
+		#DE7E41 16.67%,
+		#DE7E41 33.33%,
+		#E4D56F 33.33%,
+		#E4D56F 50%,
+		#55B85F 50%,
+		#55B85F 66.67%,
+		#2473B5 66.67%,
+		#2473B5 83.33%,
+		#6F5DA5 83.33%,
+		#6F5DA5
 	) !important;
 	background-color: initial;
 }
+
+
 
 div.select2-drop .select2-search input.primary,
 select.primary,
@@ -26,19 +27,18 @@ input:not([type='range']).primary,
 textarea.primary,
 div[contenteditable='true'].primary,
 .pager li a.primary {
-	background-image: linear-gradient(
-		lighten(rgb(204, 0, 0), 30%),
-		lighten(rgb(204, 0, 0), 30%) 16.67%,
-		lighten(rgb(204, 102, 0), 30%) 16.67%,
-		lighten(rgb(204, 102, 0), 30%) 33.33%,
-		lighten(rgb(204, 204, 0), 30%) 33.33%,
-		lighten(rgb(204, 204, 0), 30%) 50%,
-		lighten(rgb(0, 121, 64), 30%) 50%,
-		lighten(rgb(0, 121, 64), 30%) 66.67%,
-		lighten(rgb(0, 0, 166), 30%) 66.67%,
-		lighten(rgb(0, 0, 166), 30%) 83.33%,
-		lighten(rgb(160, 0, 192), 30%) 83.33%,
-		lighten(rgb(160, 0, 192), 30%)
+	background-image: linear-gradient(#E04641,
+		#E04641 16.67%,
+		#DE7E41 16.67%,
+		#DE7E41 33.33%,
+		#E4D56F 33.33%,
+		#E4D56F 50%,
+		#55B85F 50%,
+		#55B85F 66.67%,
+		#2473B5 66.67%,
+		#2473B5 83.33%,
+		#6F5DA5 83.33%,
+		#6F5DA5
 	) !important;
 	background-color: initial;
 	color: black;
