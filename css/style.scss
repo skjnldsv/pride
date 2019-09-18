@@ -1,5 +1,23 @@
 @namespace xlink 'http://www.w3.org/1999/xlink';
 
+#header {
+	background-image: linear-gradient(
+		lighten(rgb(204, 0, 0), 5%),
+		lighten(rgb(204, 0, 0), 5%) 16.67%,
+		lighten(rgb(204, 102, 0), 5%) 16.67%,
+		lighten(rgb(204, 102, 0), 5%) 33.33%,
+		lighten(rgb(204, 204, 0), 5%) 33.33%,
+		lighten(rgb(204, 204, 0), 5%) 50%,
+		lighten(rgb(0, 121, 64), 5%) 50%,
+		lighten(rgb(0, 121, 64), 5%) 66.67%,
+		lighten(rgb(0, 0, 166), 5%) 66.67%,
+		lighten(rgb(0, 0, 166), 5%) 83.33%,
+		lighten(rgb(160, 0, 192), 5%) 83.33%,
+		lighten(rgb(160, 0, 192), 5%)
+	) !important;
+	background-color: initial;
+}
+
 div.select2-drop .select2-search input.primary,
 select.primary,
 button.primary,
@@ -7,30 +25,33 @@ button.primary,
 input:not([type='range']).primary,
 textarea.primary,
 div[contenteditable='true'].primary,
-.pager li a.primary,
-#header {
+.pager li a.primary {
 	background-image: linear-gradient(
-		rgb(204, 0, 0),
-		rgb(204, 0, 0) 16.67%,
-		rgb(204, 102, 0) 16.67%,
-		rgb(204, 102, 0) 33.33%,
-		rgb(204, 204, 0) 33.33%,
-		rgb(204, 204, 0) 50%,
-		rgb(0, 121, 64) 50%,
-		rgb(0, 121, 64) 66.67%,
-		rgb(0, 0, 166) 66.67%,
-		rgb(0, 0, 166) 83.33%,
-		rgb(160, 0, 192) 83.33%,
-		rgb(160, 0, 192)
+		lighten(rgb(204, 0, 0), 30%),
+		lighten(rgb(204, 0, 0), 30%) 16.67%,
+		lighten(rgb(204, 102, 0), 30%) 16.67%,
+		lighten(rgb(204, 102, 0), 30%) 33.33%,
+		lighten(rgb(204, 204, 0), 30%) 33.33%,
+		lighten(rgb(204, 204, 0), 30%) 50%,
+		lighten(rgb(0, 121, 64), 30%) 50%,
+		lighten(rgb(0, 121, 64), 30%) 66.67%,
+		lighten(rgb(0, 0, 166), 30%) 66.67%,
+		lighten(rgb(0, 0, 166), 30%) 83.33%,
+		lighten(rgb(160, 0, 192), 30%) 83.33%,
+		lighten(rgb(160, 0, 192), 30%)
 	) !important;
 	background-color: initial;
+	color: black;
+	border-color: rgba(127,127,127, .7);
 }
+
 
 #header .header-right > div > .menutoggle,
 #header .header-right > form > .menutoggle,
 .searchbox input[type='search'],
 #appmenu li a {
 	opacity: 1 !important;
+	filter: drop-shadow(0 3px 2px rgba(0,0,0,.5))
 }
 
 #appmenu li {
