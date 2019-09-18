@@ -1,3 +1,5 @@
+@namespace xlink 'http://www.w3.org/1999/xlink';
+
 div.select2-drop .select2-search input.primary,
 select.primary,
 button.primary,
@@ -40,4 +42,9 @@ div[contenteditable='true'].primary,
 		background: none !important;
 		font-weight: bold;
 	}
+}
+
+// App icon in apps management list
+.apps-list [xlink|href*=pride] {
+    filter: none !important;
 }
