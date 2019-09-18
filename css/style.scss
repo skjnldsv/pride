@@ -1,0 +1,43 @@
+div.select2-drop .select2-search input.primary,
+select.primary,
+button.primary,
+.button.primary,
+input:not([type='range']).primary,
+textarea.primary,
+div[contenteditable='true'].primary,
+.pager li a.primary,
+#header {
+	background-image: linear-gradient(
+		rgb(204, 0, 0),
+		rgb(204, 0, 0) 16.67%,
+		rgb(204, 102, 0) 16.67%,
+		rgb(204, 102, 0) 33.33%,
+		rgb(204, 204, 0) 33.33%,
+		rgb(204, 204, 0) 50%,
+		rgb(0, 121, 64) 50%,
+		rgb(0, 121, 64) 66.67%,
+		rgb(0, 0, 166) 66.67%,
+		rgb(0, 0, 166) 83.33%,
+		rgb(160, 0, 192) 83.33%,
+		rgb(160, 0, 192)
+	) !important;
+	background-color: initial;
+}
+
+#header .header-right > div > .menutoggle,
+#header .header-right > form > .menutoggle,
+.searchbox input[type='search'],
+#appmenu li a {
+	opacity: 1 !important;
+}
+
+#appmenu li {
+	&:hover a + span,
+	a:focus + span,
+	&:hover span,
+	&:focus span,
+	a:focus span {
+		background: none !important;
+		font-weight: bold;
+	}
+}
