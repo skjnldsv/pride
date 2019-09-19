@@ -1,6 +1,6 @@
 <?php
 /**
- * This file is part of the Unsplash App
+ * This file is part of the Pride App
  * and licensed under the AGPL.
  */
 use OCP\Util;
