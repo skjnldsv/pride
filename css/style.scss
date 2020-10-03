@@ -49,6 +49,7 @@ div[contenteditable='true'].primary,
 
 /* Header icons get drop shadow for visibility */
 #header .logo.logo-icon,
+#header .header-right .header-menu__trigger,
 #appmenu svg,
 #more-apps div,
 .searchbox input[type="search"],
@@ -64,7 +65,8 @@ div[contenteditable='true'].primary,
 #appmenu li a,
 .searchbox input[type="search"],
 #header .header-right > div > .menutoggle,
-#header .header-right > form > .menutoggle {
+#header .header-right > form > .menutoggle,
+#header .header-right .header-menu__trigger {
 	opacity: .9;
 }
 
