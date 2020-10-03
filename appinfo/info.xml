@@ -5,7 +5,7 @@
     <name>Pride</name>
     <summary>Show your pride to the world</summary>
     <description><![CDATA[Diversity and inclusion are what makes the world worth living in! Let&#39;s show some pride!]]></description>
-    <version>0.0.3</version>
+    <version>0.0.4</version>
     <licence>agpl</licence>
     <author mail="skjnldsv@protonmail.com" homepage="https://github.com/skjnldsv/pride">John Molakvoæ</author>
     <namespace>Pride</namespace>
@@ -13,6 +13,6 @@
     <bugs>https://github.com/skjnldsv/pride/issues</bugs>
     <screenshot>https://user-images.githubusercontent.com/14975046/65167985-dd2eb300-da43-11e9-93bb-3102ca3c5f4b.png</screenshot>
     <dependencies>
-        <nextcloud min-version="15" max-version="18"/>
+        <nextcloud min-version="15" max-version="21"/>
     </dependencies>
 </info>
