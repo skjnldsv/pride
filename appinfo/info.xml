@@ -13,6 +13,6 @@
     <bugs>https://github.com/skjnldsv/pride/issues</bugs>
     <screenshot>https://user-images.githubusercontent.com/14975046/65167985-dd2eb300-da43-11e9-93bb-3102ca3c5f4b.png</screenshot>
     <dependencies>
-        <nextcloud min-version="15" max-version="21"/>
+        <nextcloud min-version="22" max-version="25"/>
     </dependencies>
 </info>
