@@ -1,0 +1,26 @@
+/*
+<svg xmlns="http://www.w3.org/2000/svg" height="100%" width="100%" preserveAspectRatio="none">
+  <rect width="100%" height="20%" fill="#E04641"/>
+  <rect width="100%" height="20%" y="20%" fill="#DE7E41"/>
+  <rect width="100%" height="20%" y="40%" fill="#E4D56F"/>
+  <rect width="100%" height="20%" y="60%" fill="#55B85F"/>
+  <rect width="100%" height="20%" y="80%" fill="#2473B5"/>
+  <rect width="100%" height="20%" y="100%" fill="#6F5DA5"/>
+</svg>
+*/
+body {
+	/*
+	 * TODO: remove when 26 is min supported
+	 * With 26 we do not define --image-background if
+	 * the default background option is selected by the user.
+	 */
+	--image-background: var(--image-background-pride) !important;
+	--image-background-default: var(--image-background-pride) !important;
+
+	--image-background-pride: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMTAwJSIgd2lkdGg9IjEwMCUiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPgogIDxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjIwJSIgZmlsbD0iI0UwNDY0MSIvPgogIDxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjIwJSIgeT0iMjAlIiBmaWxsPSIjREU3RTQxIi8+CiAgPHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMjAlIiB5PSI0MCUiIGZpbGw9IiNFNEQ1NkYiLz4KICA8cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIyMCUiIHk9IjYwJSIgZmlsbD0iIzU1Qjg1RiIvPgogIDxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjIwJSIgeT0iODAlIiBmaWxsPSIjMjQ3M0I1Ii8+CiAgPHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMjAlIiB5PSIxMDAlIiBmaWxsPSIjNkY1REE1Ii8+Cjwvc3ZnPg==");
+}
+
+.preview-card__header,
+.profile__primary-action-button {
+	background-image: var(--image-background-pride) !important;
+}
