@@ -11,7 +11,8 @@
     <namespace>Pride</namespace>
     <category>customization</category>
     <bugs>https://github.com/skjnldsv/pride/issues</bugs>
-    <screenshot>https://user-images.githubusercontent.com/14975046/65167985-dd2eb300-da43-11e9-93bb-3102ca3c5f4b.png</screenshot>
+    <screenshot>https://github.com/skjnldsv/pride/raw/master/screenshot.png</screenshot>
+    <screenshot>https://github.com/skjnldsv/pride/raw/master/screenshot2.png</screenshot>
     <dependencies>
         <nextcloud min-version="25" max-version="26"/>
     </dependencies>
