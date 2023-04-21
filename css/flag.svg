@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+  <style>
+    rect { height: 100%; width: 100%; }
+	rect.triangles { width: 100vh; transform-origin: 50vh 50vh; }
+  </style>
+  <rect fill="#E04641" width="100%" height="100%" />
+  <rect fill="#DE7E41" y="calc(100vh / 6)"/>
+  <rect fill="#E4D56F" y="calc(100vh / 6 * 2)"/>
+  <rect fill="#55B85F" y="calc(100vh / 6 * 3)"/>
+  <rect fill="#2473B5" y="calc(100vh / 6 * 4)"/>
+  <rect fill="#6F5DA5" y="calc(100vh / 6 * 5)"/>
+  <rect class="triangles" style="transform:translateX(-40.5vh) rotate(45deg)"/>
+  <rect class="triangles" fill="#613915" style="transform:translateX(-55.5vh) rotate(45deg)"/>
+  <rect class="triangles" fill="#74d7ee" style="transform:translateX(-70.5vh) rotate(45deg)"/>
+  <rect class="triangles" fill="#ffafc8" style="transform:translateX(-85.5vh) rotate(45deg)"/>
+  <rect class="triangles" fill="#fff" style="transform:translateX(-100.5vh) rotate(45deg)"/>
+</svg>
