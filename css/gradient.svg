@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+	<defs>
+		<linearGradient id="gradient-pride" gradientTransform="rotate(90)">
+			<stop offset="0%" stop-color="#E04641"></stop>
+			<stop offset="16.67%" stop-color="#E04641"></stop>
+			<stop offset="16.67%" stop-color="#DE7E41"></stop>
+			<stop offset="33.34%" stop-color="#DE7E41"></stop>
+			<stop offset="33.34%" stop-color="#E4D56F"></stop>
+			<stop offset="50%" stop-color="#E4D56F"></stop>
+			<stop offset="50%" stop-color="#55B85F"></stop>
+			<stop offset="66.67%" stop-color="#55B85F"></stop>
+			<stop offset="66.67%" stop-color="#2473B5"></stop>
+			<stop offset="83.34%" stop-color="#2473B5"></stop>
+			<stop offset="83.34%" stop-color="#6F5DA5"></stop>
+			<stop offset="100%" stop-color="#6F5DA5"></stop>
+		</linearGradient>
+	</defs>
+</svg>
