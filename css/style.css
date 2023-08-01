@@ -7,3 +7,13 @@ body {
 .profile__primary-action-button {
 	background-image: var(--image-background-pride) !important;
 }
+
+/* File list folder icon */
+.files-list__row-icon .folder-icon svg {
+	fill: url(#gradient-pride);
+}
+
+/* Checkbox icons */
+.checkbox-radio-switch__icon svg {
+	fill: var(--color-text-maxcontrast);
+}
