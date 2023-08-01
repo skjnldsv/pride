@@ -17,3 +17,13 @@ body {
 .checkbox-radio-switch__icon svg {
 	fill: var(--color-text-maxcontrast);
 }
+
+/* Force white app menu for cleaner contrast with pride background */
+.app-menu-main .app-menu-entry.app-menu-entry__active::before {
+	background-color: white !important;
+}
+#header {
+	--background-image-invert-if-bright: no;
+	--color-primary-element-text: white;
+	--color-primary-text: white;
+}
