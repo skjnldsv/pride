@@ -9,8 +9,11 @@ body {
 }
 
 /* File list folder icon */
-.files-list__row-icon .folder-icon svg,
+.files-list__row-icon .folder-icon svg {
+	fill: url(#gradient-pride);
+}
+
 /* Checkbox icons */
 .checkbox-radio-switch__icon svg {
-	fill: url(#gradient-pride)
+	fill: var(--color-text-maxcontrast);
 }
