@@ -5,7 +5,7 @@
     <name>Pride</name>
     <summary>Show your pride to the world</summary>
     <description><![CDATA[Diversity and inclusion are what makes the world worth living in! Let&#39;s show some pride!]]></description>
-    <version>1.1.1</version>
+    <version>1.2.0</version>
     <licence>agpl</licence>
     <author mail="skjnldsv@protonmail.com" homepage="https://github.com/skjnldsv/pride">John Molakvoæ</author>
     <namespace>Pride</namespace>
